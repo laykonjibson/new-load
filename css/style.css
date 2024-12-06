@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    background-color: rgba(255, 106, 58);
+}
+.card{
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    top: 20%;
+    left: 25%;
+    position: absolute;
+    background-color: white;
+    border: none;
+}
+.update{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+}
+.update h1{
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+.update p{
+    font-size: 15px;
+    margin-bottom: 15PX;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.list-1{
+    display: flex;
+    flex-direction: row;
+    margin: 5PX;
+    align-items: center;
+}
+.list-1 p{
+    padding: 5px;
+    margin: 5px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.mail h2{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.holder{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+#email{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 10px;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+#subscribe{
+    width: 300px;
+    height: 35px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    border: none;
+    /* transition: 0.3s ease-in-out; */
+    cursor: pointer;
+    display: flex;
+}
+/* .update button:hover{
+    scale: 1.1;
+    background-color: rgb(243, 21, 243);
+} */
+
+.sign-up img{
+    width: 95%;
+    height: 95%;
+    
+}
+.error{
+    display: none;
+}
+.success{
+    display: none;
+    flex-direction: column;
+    width: 30%;
+    top: 30%;
+    left: 35%;
+    position: absolute;
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: white;
+
+}
+.success img{
+    width: 50px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.success h1{
+    font-size: 45px;
+    width: 100%;
+    color: rgb(58, 6, 58);
+    margin-bottom: 10px;
+}
+.success p{
+    font-weight: 100;
+    color: rgb(58, 6, 58);
+    margin-bottom: 10px;
+}
+.success button{
+    width: 300px;
+    height: 30px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    background-color: rgba(48, 3, 48, 0.945);
+    color: white;
+    font-size: 15px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    border: none;
+
+}
+.success span{
+    font-weight: 600;
+}
+.success button:hover{
+    scale: 1.1;
+    background-color: rgb(243, 21, 243);
+}
